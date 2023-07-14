@@ -154,4 +154,41 @@ button {
   background: url("../../icons/section/6.png") center center/cover no-repeat;
 }
 
+.experts {
+  min-height: 890px;
+  padding: 70px 0;
+  background: url("../../images/experts_bg.jpg") center center/cover no-repeat;
+}
+.experts__menu {
+  padding: 20px 30px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+}
+.experts__item {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.experts__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 30.012px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+}
+.h2_experts {
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */
