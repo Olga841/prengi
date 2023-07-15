@@ -18,7 +18,7 @@
       line-height: 200%
       text-transform: uppercase
       a
-        color: #FFF
+        color: $main_color
         text-decoration: none
   &__flex_container
     display: flex
@@ -28,14 +28,18 @@
     padding-top: 100px
 
   &__header
-    color: #FFF
+    color: $main_color
     font-size: 42px
     font-style: normal
     font-weight: 900
     line-height: 48px
+    &:hover
+      opacity: 50%
+    &:active
+      color: $button_color
   &__text
     margin: 20px 0 40px 0
-    color: #FFF
+    color: $main_color
     font-size: 24px
     font-style: normal
     font-weight: 300
