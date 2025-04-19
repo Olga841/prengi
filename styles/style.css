@@ -42,7 +42,7 @@
 .hero {
   min-height: 700px;
   padding: 40px 0 0 0;
-  background: url("../../images/main_bg.jpg") center center/cover no-repeat;
+  background: url("../images/main_bg.jpg") center center/cover no-repeat;
 }
 .hero__nav {
   width: 100%;
@@ -151,28 +151,28 @@ button:active {
   font-weight: 700;
 }
 .cards__item_1 {
-  background: url("../../icons/section/1.png") center center/cover no-repeat;
+  background: url("../icons/section/1.png") center center/cover no-repeat;
 }
 .cards__item_2 {
-  background: url("../../icons/section/2.png") center center/cover no-repeat;
+  background: url("../icons/section/2.png") center center/cover no-repeat;
 }
 .cards__item_3 {
-  background: url("../../icons/section/3.png") center center/cover no-repeat;
+  background: url("../icons/section/3.png") center center/cover no-repeat;
 }
 .cards__item_4 {
-  background: url("../../icons/section/4.png") center center/cover no-repeat;
+  background: url("../icons/section/4.png") center center/cover no-repeat;
 }
 .cards__item_5 {
-  background: url("../../icons/section/5.png") center center/cover no-repeat;
+  background: url("../icons/section/5.png") center center/cover no-repeat;
 }
 .cards__item_6 {
-  background: url("../../icons/section/6.png") center center/cover no-repeat;
+  background: url("../icons/section/6.png") center center/cover no-repeat;
 }
 
 .experts {
   min-height: 890px;
   padding: 0 0 70px 0;
-  background: url("../../images/experts_bg.jpg") center center/cover no-repeat;
+  background: url("../images/experts_bg.jpg") center center/cover no-repeat;
 }
 .experts__menu {
   padding: 20px 30px;
@@ -230,26 +230,26 @@ button:active {
   line-height: 26px;
 }
 .benefits__item_1 {
-  background: url("../../images/section_2/Opportunity.jpg") center center/cover no-repeat;
+  background: url("../images/section_2/Opportunity.jpg") center center/cover no-repeat;
 }
 .benefits__item_2 {
-  background: url("../../images/section_2/intellect.jpg") center center/cover no-repeat;
+  background: url("../images/section_2/intellect.jpg") center center/cover no-repeat;
 }
 .benefits__item_3 {
-  background: url("../../images/section_2/world.jpg") center center/cover no-repeat;
+  background: url("../images/section_2/world.jpg") center center/cover no-repeat;
 }
 .benefits__item_4 {
-  background: url("../../images/section_2/programming.jpg") center center/cover no-repeat;
+  background: url("../images/section_2/programming.jpg") center center/cover no-repeat;
 }
 .benefits__item_5 {
-  background: url("../../images/section_2/Alive.jpg") center center/cover no-repeat;
+  background: url("../images/section_2/Alive.jpg") center center/cover no-repeat;
 }
 .benefits__item_6 {
-  background: url("../../images/section_2/payment.jpg") center center/cover no-repeat;
+  background: url("../images/section_2/payment.jpg") center center/cover no-repeat;
 }
 
 .data {
-  background: url("../../images/data_block/data_bg.jpg") center center/cover no-repeat;
+  background: url("../images/data_block/data_bg.jpg") center center/cover no-repeat;
   min-height: 580px;
   padding: 0 0 220px 0;
 }
@@ -340,6 +340,4 @@ button:active {
   display: flex;
   justify-content: center;
   column-gap: 10px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
