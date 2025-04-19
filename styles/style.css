@@ -66,6 +66,13 @@
   color: #FFF;
   text-decoration: none;
 }
+.hero__nav_item a:hover {
+  color: #00C2F0;
+  opacity: 70%;
+}
+.hero__nav_item a:active {
+  color: #00C2F0;
+}
 .hero__flex_container {
   display: flex;
   justify-content: space-between;
@@ -80,12 +87,6 @@
   font-style: normal;
   font-weight: 900;
   line-height: 48px;
-}
-.hero__header:hover {
-  opacity: 50%;
-}
-.hero__header:active {
-  color: #00C2F0;
 }
 .hero__text {
   margin: 20px 0 40px 0;
@@ -111,7 +112,14 @@ button {
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
-  border: 1px solid #FFF;
+  border: none;
+}
+button:hover {
+  background-color: #0082a1;
+  opacity: 70%;
+}
+button:active {
+  background-color: #0082a1;
 }
 
 .cards {

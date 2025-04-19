@@ -20,23 +20,23 @@
       a
         color: $main_color
         text-decoration: none
+        &:hover
+          color: $button_color
+          opacity: 70%
+        &:active
+          color: $button_color
   &__flex_container
     display: flex
     justify-content: space-between
     padding: 48px 0 0 0
   &__wrapper
     padding-top: 100px
-
   &__header
     color: $main_color
     font-size: 42px
     font-style: normal
     font-weight: 900
     line-height: 48px
-    &:hover
-      opacity: 50%
-    &:active
-      color: $button_color
   &__text
     margin: 20px 0 40px 0
     color: $main_color
@@ -46,5 +46,3 @@
     line-height: 30px
   &__img
     display: block
-
-
